@@ -226,7 +226,7 @@ Partial Class Bookkeep
         Me.tbIncome.Location = New System.Drawing.Point(0, 4)
         Me.tbIncome.Name = "tbIncome"
         Me.tbIncome.SelectedIndex = 0
-        Me.tbIncome.Size = New System.Drawing.Size(642, 521)
+        Me.tbIncome.Size = New System.Drawing.Size(642, 518)
         Me.tbIncome.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
         Me.tbIncome.TabIndex = 2
         '
@@ -242,7 +242,7 @@ Partial Class Bookkeep
         Me.TabPage1.Location = New System.Drawing.Point(4, 28)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(634, 489)
+        Me.TabPage1.Size = New System.Drawing.Size(634, 486)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Income"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -258,7 +258,7 @@ Partial Class Bookkeep
         Me.TabPage2.Location = New System.Drawing.Point(4, 28)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(653, 489)
+        Me.TabPage2.Size = New System.Drawing.Size(634, 489)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Expense"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -417,12 +417,12 @@ Partial Class Bookkeep
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.PaleTurquoise
-        Me.ClientSize = New System.Drawing.Size(646, 523)
+        Me.ClientSize = New System.Drawing.Size(646, 526)
         Me.Controls.Add(Me.tbIncome)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Bookkeep"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Bookkeep"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
